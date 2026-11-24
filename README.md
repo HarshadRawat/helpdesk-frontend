@@ -8,6 +8,16 @@
 
 Modern, enterprise-grade IT Helpdesk & Service Management (ITSM) web portal built with **Vue 3**, **TypeScript**, **Vite**, **Pinia**, and **Tailwind CSS**.
 
+---
+
+## 🌐 Live Deployed Application
+
+| Service | Live Deployment URL | Description |
+| :--- | :--- | :--- |
+| **Frontend Web Portal** | [https://harshadrawat.github.io/helpdesk-frontend/](https://harshadrawat.github.io/helpdesk-frontend/) | Production Vue 3 Single Page Application hosted on GitHub Pages |
+| **Backend REST API** | [https://helpdesk-backend-production-7f4522ed.up.railway.app](https://helpdesk-backend-production-7f4522ed.up.railway.app) | Production Spring Boot 3 REST API hosted on Railway |
+| **Swagger UI Documentation** | [https://helpdesk-backend-production-7f4522ed.up.railway.app/swagger-ui/index.html](https://helpdesk-backend-production-7f4522ed.up.railway.app/swagger-ui/index.html) | Interactive OpenAPI 3.0 API explorer & test console |
+
 🔗 **Backend API Repository**: [https://github.com/HarshadRawat/helpdesk-backend](https://github.com/HarshadRawat/helpdesk-backend)
 
 ---

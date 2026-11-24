@@ -35,11 +35,8 @@ const handleLogin = async () => {
   }
 }
 
-const fillCredentials = (role: 'admin' | 'support' | 'employee') => {
-  if (role === 'admin') {
-    email.value = 'admin@example.com'
-    password.value = 'Admin@123'
-  } else if (role === 'support') {
+const fillCredentials = (role: 'support' | 'employee') => {
+  if (role === 'support') {
     email.value = 'support@example.com'
     password.value = 'Support@123'
   } else {
@@ -136,25 +133,18 @@ const fillCredentials = (role: 'admin' | 'support' | 'employee') => {
           <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2 text-center">
             Quick Fill Demo Accounts
           </div>
-          <div class="grid grid-cols-3 gap-2">
-            <button
-              type="button"
-              @click="fillCredentials('admin')"
-              class="px-2 py-1.5 rounded-lg border border-slate-200 text-xs font-medium text-slate-700 hover:bg-slate-50 transition-colors"
-            >
-              Admin
-            </button>
+          <div class="grid grid-cols-2 gap-3">
             <button
               type="button"
               @click="fillCredentials('support')"
-              class="px-2 py-1.5 rounded-lg border border-slate-200 text-xs font-medium text-slate-700 hover:bg-slate-50 transition-colors"
+              class="px-3 py-2 rounded-xl border border-slate-200 text-xs font-medium text-slate-700 hover:bg-slate-50 transition-colors"
             >
               IT Support
             </button>
             <button
               type="button"
               @click="fillCredentials('employee')"
-              class="px-2 py-1.5 rounded-lg border border-slate-200 text-xs font-medium text-slate-700 hover:bg-slate-50 transition-colors"
+              class="px-3 py-2 rounded-xl border border-slate-200 text-xs font-medium text-slate-700 hover:bg-slate-50 transition-colors"
             >
               Employee
             </button>
